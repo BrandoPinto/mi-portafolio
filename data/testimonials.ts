@@ -3,20 +3,20 @@ import { Testimonial } from "@/types";
 export const testimonials: Testimonial[] = [
   {
     id: "test-01",
-    name: "Camila Rossi",
-    role: "Product Manager",
-    company: "Nimbus Labs",
+    name: "Carlos Valdivia",
+    role: "Gerente General",
+    company: "Grupo Comercial Valdivia · Arequipa",
     avatar: "/assets/images/mock-avatar.svg",
     quote:
-      "Entregó el dashboard dos semanas antes de lo previsto, con una calidad de código que facilitó cada iteración posterior del equipo.",
+      "Brando nos desarrolló el sistema de gestión que necesitábamos. Ahora controlamos inventario, ventas y reportes desde un solo lugar. Excelente trabajo.",
   },
   {
     id: "test-02",
-    name: "Diego Fernández",
-    role: "CTO",
-    company: "Fielda",
+    name: "Lucía Medina",
+    role: "Jefa de Operaciones",
+    company: "Inversiones RM · Lima",
     avatar: "/assets/images/mock-avatar.svg",
     quote:
-      "Su criterio técnico y atención al detalle en la experiencia offline fueron determinantes para el lanzamiento de la app en campo.",
+      "El dashboard que construyó para nuestro equipo redujo el tiempo de reporte a la mitad. Muy profesional y siempre disponible para los ajustes.",
   },
 ];

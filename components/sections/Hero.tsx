@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, Download, Sparkle } from "lucide-react";
+import { ArrowUpRight, Sparkle } from "lucide-react";
 import { LinkButton } from "@/components/ui/Button";
 import MusicPlayer from "@/components/music/MusicPlayer";
 
@@ -45,6 +45,21 @@ export default function Hero() {
             Disponible para nuevos proyectos
           </motion.div>
 
+          <motion.p
+            variants={item}
+            className="mb-4 flex items-center gap-2.5 font-body text-lg text-ink-secondary"
+          >
+            <motion.span
+              animate={{ rotate: [0, 22, -8, 22, 0] }}
+              transition={{ duration: 1.6, repeat: Infinity, repeatDelay: 2, ease: "easeInOut" }}
+              className="inline-block text-2xl"
+              style={{ transformOrigin: "70% 70%" }}
+            >
+              👋
+            </motion.span>
+            Hola, soy Brando
+          </motion.p>
+
           <motion.h1
             variants={item}
             className="font-display text-4xl font-medium leading-[1.05] tracking-tight text-ink sm:text-5xl md:text-6xl lg:text-[3.75rem]"
@@ -75,9 +90,9 @@ export default function Hero() {
               Ver proyectos
               <ArrowUpRight className="h-4 w-4" />
             </LinkButton>
-            <LinkButton href="#" variant="secondary" size="lg">
-              Descargar CV
-              <Download className="h-4 w-4" />
+            <LinkButton href="/assets/documents/cv_brandopinto.pdf" variant="secondary" size="lg" target="_blank" rel="noopener noreferrer">
+              Ver CV
+              <ArrowUpRight className="h-4 w-4" />
             </LinkButton>
           </motion.div>
 
@@ -86,7 +101,7 @@ export default function Hero() {
             className="mt-14 grid w-full max-w-md grid-cols-3 gap-6 border-t border-surface-border pt-8"
           >
             <div>
-              <p className="font-display text-2xl font-medium text-ink">6+</p>
+              <p className="font-display text-2xl font-medium text-ink">+4</p>
               <p className="mt-1 font-body text-xs text-ink-muted">
                 Años de experiencia
               </p>

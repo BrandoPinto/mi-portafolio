@@ -49,7 +49,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:block">
-          <LinkButton href="#contacto" size="md">
+          <LinkButton href="mailto:bpintochecya@gmail.com" size="md">
             Hablemos
           </LinkButton>
         </div>
@@ -98,7 +98,7 @@ export default function Navbar() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.2, delay: navigation.length * 0.05 }}
               >
-                <LinkButton href="#contacto" size="md" className="mt-2 w-full">
+                <LinkButton href="mailto:bpintochecya@gmail.com" size="md" className="mt-2 w-full">
                   Hablemos
                 </LinkButton>
               </motion.div>

@@ -7,8 +7,8 @@ import SectionTitle from "@/components/ui/SectionTitle";
 import Card from "@/components/ui/Card";
 
 const facts = [
-  { icon: MapPin, label: "Lima, Perú · Remoto" },
-  { icon: Briefcase, label: "Full Stack Developer, 6+ años" },
+  { icon: MapPin, label: "Arequipa, Perú · Remoto" },
+  { icon: Briefcase, label: "Full Stack Developer, +4 años" },
   { icon: GraduationCap, label: "Ing. de Software" },
 ];
 
@@ -34,14 +34,15 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
             className="relative mx-auto w-full max-w-xs"
           >
-            <Card className="relative aspect-square overflow-hidden p-0">
+            <Card className="group relative aspect-square overflow-hidden p-0">
               <Image
-                src="/assets/images/mock-avatar.svg"
+                src="/assets/images/me.webp"
                 alt="Retrato de Brando Pinto"
                 fill
                 sizes="320px"
-                className="object-cover transition-transform duration-700 hover:scale-105"
+                className="object-cover transition-all duration-700 group-hover:scale-105 group-hover:brightness-110"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-bg/40 via-transparent to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
             </Card>
             <motion.div
               initial={{ opacity: 0, scale: 0.85, y: 8 }}
@@ -75,9 +76,10 @@ export default function AboutSection() {
                 boceto hasta producción, sin perder calidad en el camino.
               </p>
               <p>
-                Me interesa especialmente la intersección entre performance,
-                accesibilidad y experiencias con personalidad: interfaces
-                rápidas que además cuentan una historia.
+                Me especializo en dashboards, sistemas de gestión y ERPs a
+                medida: desde paneles de analítica en tiempo real hasta
+                plataformas administrativas completas para distintos rubros
+                e industrias.
               </p>
             </div>
 

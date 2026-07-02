@@ -19,12 +19,12 @@ export default function Footer() {
               ¿Construimos algo juntos?
             </p>
             <motion.a
-              href="mailto:hola@brandodev.com"
+              href="mailto:bpintochecya@gmail.com"
               className="mt-2 inline-flex items-center gap-1.5 font-body text-ink-secondary transition-colors hover:text-accent"
               whileHover={{ x: 2 }}
               transition={{ duration: 0.15 }}
             >
-              hola@brandodev.com
+              bpintochecya@gmail.com
               <motion.span
                 whileHover={{ x: 2, y: -2 }}
                 transition={{ duration: 0.15 }}

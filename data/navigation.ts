@@ -8,7 +8,6 @@ export const navigation: NavItem[] = [
 ];
 
 export const socialLinks = [
-  { label: "GitHub", href: "https://github.com" },
-  { label: "LinkedIn", href: "https://linkedin.com" },
-  { label: "Twitter", href: "https://twitter.com" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/brando-pinto-2109b5208/" },
+  { label: "GitHub", href: "https://github.com/BrandoPinto" },
 ];
