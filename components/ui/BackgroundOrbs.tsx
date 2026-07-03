@@ -22,6 +22,7 @@ export default function BackgroundOrbs() {
   return (
     <div
       aria-hidden
+      className="opacity-50 sm:opacity-100"
       style={{
         position: "fixed",
         inset: 0,

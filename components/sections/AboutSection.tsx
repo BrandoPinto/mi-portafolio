@@ -53,7 +53,7 @@ export default function AboutSection() {
             >
               <p className="font-mono text-[11px] text-ink-muted">status</p>
               <p className="font-body text-sm font-medium text-accent">
-                Building in public
+                Active
               </p>
             </motion.div>
           </motion.div>

@@ -13,12 +13,14 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
+  const fromLeft = index % 2 === 0;
+
   return (
     <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-80px" }}
-      transition={{ duration: 0.5, delay: index * 0.08, ease: "easeOut" }}
+      initial={{ opacity: 0, x: fromLeft ? -60 : 60 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true, margin: "-60px" }}
+      transition={{ duration: 0.55, delay: index * 0.06, ease: "easeOut" }}
     >
       <Card hoverable className="group flex h-full flex-col overflow-hidden">
         <div className="relative aspect-[4/3] w-full overflow-hidden">

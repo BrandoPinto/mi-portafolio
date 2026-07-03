@@ -57,7 +57,7 @@ export default function Hero() {
             >
               👋
             </motion.span>
-            Hola, soy Brando
+            Hola, soy Brando.
           </motion.p>
 
           <motion.h1
