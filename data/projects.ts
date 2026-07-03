@@ -35,6 +35,17 @@ export const projects: Project[] = [
     year: "2026",
   },
   {
+    id: "proj-05",
+    title: "Aura Parfum — Sistema de stock",
+    description:
+      "Sistema web para empresa de perfumes que permite gestionar y visualizar el inventario de productos en tiempo real, con control de stock y reportes.",
+    image: "/assets/images/projects/auraparfum.webp",
+    tags: ["Laravel", "Livewire", "PHP"],
+    href: "https://sistema.auraparfumoficial.com",
+    featured: true,
+    year: "2024",
+  },
+  {
     id: "proj-04",
     title: "SUIT — Plataforma de venta de terrenos",
     description:
