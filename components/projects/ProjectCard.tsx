@@ -52,6 +52,8 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
           <div className="mt-auto flex items-center gap-4 pt-3">
             <a
               href={project.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 font-body text-sm font-medium text-ink transition-colors hover:text-accent"
             >
               Ver proyecto
@@ -60,6 +62,8 @@ export default function ProjectCard({ project, index = 0 }: ProjectCardProps) {
             {project.repoHref && (
               <a
                 href={project.repoHref}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Repositorio en GitHub"
                 className="inline-flex items-center gap-1.5 font-body text-sm text-ink-secondary transition-colors hover:text-ink"
               >

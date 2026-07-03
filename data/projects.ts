@@ -56,4 +56,15 @@ export const projects: Project[] = [
     featured: true,
     year: "2024",
   },
+  {
+    id: "proj-06",
+    title: "Taxialo45 — Página informativa",
+    description:
+      "Sitio web informativo para empresa de taxis arequipeña. Presentación de servicios, contacto y cobertura de rutas con diseño limpio y responsive.",
+    image: "/assets/images/projects/taxialo45.webp",
+    tags: ["HTML", "CSS", "JavaScript"],
+    href: "https://taxialo45.com.pe",
+    featured: true,
+    year: "2025",
+  },
 ];
