@@ -4,6 +4,9 @@ import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import MusicPlayerCompact from "@/components/music/MusicPlayerCompact";
+import FloatingContact from "@/components/ui/FloatingContact";
+import BackgroundOrbs from "@/components/ui/BackgroundOrbs";
+import CustomCursor from "@/components/ui/CustomCursor";
 import { AudioProvider } from "@/context/AudioContext";
 import { playlist } from "@/data/music";
 
@@ -39,11 +42,14 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${display.variable} ${body.variable} ${mono.variable}`}>
       <body className="min-h-screen">
+        <BackgroundOrbs />
+        <CustomCursor />
         <AudioProvider songs={playlist}>
           <Navbar />
           <main className="pb-24 lg:pb-0">{children}</main>
           <Footer />
           <MusicPlayerCompact />
+          <FloatingContact />
         </AudioProvider>
       </body>
     </html>

@@ -19,7 +19,7 @@
     @apply bg-bg text-ink font-body antialiased;
     background-image: radial-gradient(
       circle at 50% -10%,
-      rgba(210, 232, 107, 0.06),
+      rgba(59, 130, 246, 0.06),
       transparent 55%
     );
   }
@@ -40,6 +40,13 @@
 @layer utilities {
   .h-13 {
     height: 3.25rem;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  *, *::before, *::after {
+    cursor: none !important;
   }
 }
 

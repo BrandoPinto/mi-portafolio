@@ -20,10 +20,10 @@ const config: Config = {
           border: "#232327",
         },
         accent: {
-          DEFAULT: "#D2E86B",
-          soft: "#E4F0A8",
-          dim: "#8C9C4E",
-          warm: "#F2D675",
+          DEFAULT: "#3B82F6",
+          soft: "#60A5FA",
+          dim: "#2563EB",
+          warm: "#93C5FD",
         },
         ink: {
           DEFAULT: "#F5F5F0",
@@ -42,7 +42,7 @@ const config: Config = {
       },
       boxShadow: {
         soft: "0 20px 60px -20px rgba(0,0,0,0.6)",
-        glow: "0 0 40px -8px rgba(210,232,107,0.25)",
+        glow: "0 0 40px -8px rgba(59,130,246,0.25)",
         card: "0 1px 0 0 rgba(255,255,255,0.04) inset, 0 12px 40px -16px rgba(0,0,0,0.5)",
       },
       keyframes: {
